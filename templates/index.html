@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Welcome to my site.</h1>
+    {% for post in all_post_lists %}
+    <li> {{post.title}} </li>
+    <li> {{post.description}} </li>
+    {% endfor %}
+</body>
+</html>

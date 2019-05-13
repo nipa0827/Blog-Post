@@ -1,0 +1,36 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+appdirs = "==1.4.0"
+backports-shutil-get-terminal-size = "==1.0.0"
+decorator = "==4.0.11"
+django = "==1.8.14"
+enum34 = "==1.1.6"
+ipdb = "==0.10.2"
+ipython = "==5.2.0"
+olefile = "==0.44"
+pathlib2 = "==2.2.1"
+pexpect = "==4.2.1"
+pickleshare = "==0.7.4"
+pillow = "==4.0.0"
+psycopg2 = "==2.6.2"
+ptyprocess = "==0.5.1"
+pyparsing = "==2.1.10"
+pytesseract = "==0.1.6"
+scandir = "==1.4"
+simplegeneric = "==0.8.1"
+six = "==1.10.0"
+traitlets = "==4.3.1"
+wcwidth = "==0.1.7"
+Cython = "==0.25.2"
+ipython_genutils = "==0.1.0"
+prompt_toolkit = "==1.0.10"
+Pygments = "==2.2.0"
+
+[requires]
+python_version = "3.6"
